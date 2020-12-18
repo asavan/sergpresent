@@ -67,10 +67,19 @@ body {
 }
 .promo p {
   font-size: 24px;
+  user-select: none;
+  margin: 0;
+}
+
+.promo span {
+  font-size: 20px;
+  user-select: none;
   margin: 0;
 }
 .promo h2 {
-  font-size: 40px;
+  font-size: 30px;
+  font-family: Consolas, monospace;
+  display: inline;
   margin: 0;
 }
 
